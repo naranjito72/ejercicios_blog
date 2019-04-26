@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Limelight');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
 body{
 	font-family: 'Raleway', arial, sans-serif;
 	font-weight:400;
     margin:0;
-	background-color: #FCF8F8;
+	background-color: #8debbc77;
+	color:#2db0ec;
 	
 	
 }
@@ -18,10 +19,28 @@ nav ul li{
 	list-style-type: none;
 }
 header h1{
+	font-family: 'Roboto';
+	font-weight:700;
+	font-size:60px;
 	display:block;
 	position:relative;
 	padding-left:10%;
 	padding-top: 5%;
 	padding-bottom: 0%;
 	box-sizing: border-box;
+}
+h2{
+	font-family: 'Raleway';
+	font-weight:500;
+	color:#9e3313e3;
+	
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.nombre{
+	color:#fff;
+}
+#etiquetas p a{
+	color:#060;
 }
